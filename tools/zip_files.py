@@ -35,8 +35,6 @@ if __name__ == "__main__":
     zip_files("deploy.zip", [
         "./../main.py",
         "./../requirements.txt",
-        "./../services",
-        "./../env_models",
         "./../manifest.yml",
         "./../Procfile"
     ])
