@@ -6,7 +6,12 @@ cd tools || exit
 
 python zip_files.py
 
-cd terraform/cloudfoundry || exit
+cd terraform/btp || exit
+
+terraform destroy --auto-approve
+terraform apply --auto-approve
+
+cd ../cloudfoundry || exit
 
 terraform destroy --auto-approve
 terraform apply --auto-approve
