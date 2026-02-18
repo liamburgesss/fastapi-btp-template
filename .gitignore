@@ -1,1 +1,3 @@
 /.venv/
+/tools/terraform/BTP/.terraform/**
+/tools/terraform/cloudfoundry/.terraform/**
